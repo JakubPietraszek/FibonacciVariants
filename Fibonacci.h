@@ -6,5 +6,5 @@ public:
     int withoutRecursion(int n);
     int naiveRecursion(int n);
     int memorizationRecursion(int n, int* arr, int a);
-    int tailRecursive(int n, int a = 0, int b = 1);
+    int tailRecursive(int n, int a, int b);
 };
